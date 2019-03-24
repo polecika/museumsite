@@ -1,0 +1,19 @@
+AddDefaultCharset UTF-8
+
+php_value opcache.revalidate_freq 0
+
+RewriteBase /
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.*)$ /$1/ [L,R=301]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/ 
+RewriteRule ^index\.php$ / [R=301,L]
+
+RewriteRule ^([^/\.]+)/?$ /index.php?pu=$1 [L]
+RewriteRule ^([^/\.]+)/([^/\.]+)/?$ /index.php?pu=$1&pu1=$2 [L]
+
+ErrorDocument 404 /404.php
