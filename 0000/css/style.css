@@ -1,0 +1,153 @@
+/* ============================================================================================== 
+This copyright notice must be kept untouched in the stylesheet at all times.
+The original version of this stylesheet and the associated (x)html 
+is available at http://www.script-tutorials.com/responsive-website-using-bootstrap/
+Copyright (c) Script Tutorials. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any way to fit your requirements.
+================================================================================================= */
+
+.nav{
+	position: relative; 
+    display: block;
+    padding: 10px 15px;
+	width:50%;
+	margin-left: 28px;
+}
+.nav> li {
+  float: left;
+}
+.nav > li.active > a:hover{
+  color: white;
+  background-color: black;
+}
+
+.nav navbar-nav{
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.nav navbar-nav a:hover{
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	background:#DCDCDC;
+}
+
+.dropdown-menu{
+	background:#DCDCDC;
+}
+.dropdown-open a:hover{
+	background:#B22222;
+}
+.navbar-text{
+	background:#696969;
+	padding: 15px 10px 10px 10px;
+	border-bottom: 2px solid black;
+}
+#footer {
+	background:#333;
+}
+
+.footer1{
+	background:#202020;
+	padding: 15px 10px 10px 10px;
+	border-bottom: 2px solid black;
+}
+
+.text{
+    margin-top: 25px;
+	font-size: 16px;
+	color:white;
+	font-weight: bold;
+}
+
+
+
+.cont h3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+	font-size: 22px;
+	color:white;
+}
+.licen p{
+	margin-left: 75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+	color:#D3D3D3;
+}
+.footer2{
+	background:#202020;
+	border-bottom: 2px solid black;
+}
+.footer3{
+	background:#202020;
+}
+.design p{
+	margin-left: 360px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+	color:#D3D3D3;
+}
+
+.phone{
+    font-size: 17px;
+	color:#8B0000;
+	font-weight:bold;
+}
+
+.mail{
+    font-size: 17px;
+	color:#191970;
+	font-weight:bold;
+	margin-top:-13px;
+}
+
+
+
+.menu123{
+	margin-top:50px;
+}
+.button1{
+	margin:20px 10px 10px 10px;
+	float:right;
+}
+
+.button2{
+	margin: 60px -120px 10px 10px;
+	float:right;
+}
+
+.adress strong {
+	border-bottom: 2px solid #DC143C;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 17px;
+}
+
+.adress  {
+	display: inline-block;
+	font-size: 14px;
+}
+
+.img {
+   display: block;
+	height: auto;
+	max-width: 100%;
+}
+
+.navbar-nav {
+float: none;
+text-align: center;
+}
+.navbar-nav li {
+float: none;
+display: inline-block;
+}

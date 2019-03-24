@@ -1,0 +1,105 @@
+#content {
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  
+}
+
+
+#expo_hr {
+  border: none;
+  height: 2px;
+  color: lightgrey; /* old IE */
+  background-color: lightgrey; /* Modern Browsers */
+}
+
+#img-magistral {
+    max-height: 350px;
+	margin-top: 20px;
+}
+
+#hello-text {
+  font-size: 1.3em;
+}
+
+#calendar-block {
+  background-color: #CC586B;
+  padding-top: 0 !important;
+  margin-top:30px;
+  color:white;
+}
+
+#calendar-header {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 2.2em;
+  color: white;
+}
+
+.calendar-event {
+  padding: 30px 0px 30px 0px;
+  font-size: 1.30em;
+  color: white;
+  background-color: #8C3C4A;
+  border: 10px solid #CC586B;
+}
+
+.event-date {
+  font-size: 1.1em;
+  margin-right: 30px;
+	color:white;
+}
+
+#all-news-btn {
+  padding: 20px 70px 20px 70px;
+  font-size: 1.30em;
+  color: white;
+  background-color: #8C3C4A;
+  border: 10px solid #CC586B;
+}
+
+.play-text {
+  font-size: 1.3em;
+  margin-bottom:10px;
+}
+
+#contacts-info {
+	margin-top: 20px;
+}
+
+.contacts-info-row {
+  font-size: 16px;;
+   /* padding: 20px 80px 0px 80px; */
+}
+
+.contacts-info-row1 {
+  font-size: 16px;
+      margin-top: -5px;
+  /*padding: 0px 50px 0px 40px;*/
+}
+
+.contacts-info-row2 {
+  font-size: 16px;
+      margin-top: 10px;
+   /* padding: 20px 50px 0px 40px; */
+}
+
+
+
+#about_header {
+  padding-top: 0px;
+}
+
+p{
+	font-size:18px;
+}
+
+p.address{
+	font-size:14px;
+}
+p.worktime {
+	font-size:14px;
+}
+.bigtext{
+	color:#001e4e;
+}
